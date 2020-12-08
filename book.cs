@@ -3,8 +3,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
-public class Book{
-   
+public class Book
+{
    public string isbn;
    string title;
    string author_info;

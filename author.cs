@@ -20,7 +20,8 @@ public class Author:Person
        b.setAuthorInfo(fname,lname);
        book.Add(b);
    }
-   public void RemoveBook(string isbn){
+   public void RemoveBook(string isbn)
+   {
        int i=0;
        foreach(var item in book){
            if(string.Compare(item.isbn,isbn)==1){
