@@ -11,11 +11,11 @@ public class Program{
        Book b3=new Book("3","Invisible Man ",null);
        DateTime d1,d2,d3;
        d1=new DateTime(2010,1,18);
-       Book b4=new Book("4","Don Quixote",null,d1,"person1");
+       Book b4=new Book("4","Don Quixote",null,d1,"person2");
        d2=new DateTime(2010,11,19);
-       Book b5=new Book("5","Beloved",null,d2,"person2");
+       Book b5=new Book("5","Beloved",null,d2,"person6");
        d3=new DateTime(2010,11,20);
-       Book b6=new Book("6","To Kill a Mockingbird",null,d3,"person3");
+       Book b6=new Book("6","To Kill a Mockingbird",null,d3,"person4");
        Author a1=new Author("J","Rowling","id 1");
        Author a2=new Author("F","Fitzgerald","id 2");
        Author a3=new Author("Ralph","Ellison",null);
