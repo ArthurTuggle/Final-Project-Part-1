@@ -5,10 +5,10 @@ public class Author:Person
 
 {
   private List<Book> book=new List<Book>(); 
-   public Author(string fname,string lname,string email):base(fname,lname,email){}
+   public Author(string fname,string lname,string email):base(fname,lname){}
    public void DisplayInfo()
    {
-       Console.WriteLine(fname+" "+lname+" "+email);
+       Console.WriteLine(fname+" "+lname+" ");
    }
    public void DisplayBooks()
    {

@@ -29,7 +29,7 @@ public class Program{
        a2.AddBook(b6);
        a2.DisplayBooks();
        a1.RemoveBook(b1.isbn);
-       Console.WriteLine("After removing book....");
+       Console.WriteLine("After removing the book....");
        a1.DisplayBooks();
    }
 }
